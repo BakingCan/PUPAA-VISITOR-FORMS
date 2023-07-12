@@ -1,0 +1,173 @@
+<div class="container">
+  <!--content inner-->
+  <div class="content__inner">
+    <div class="container overflow-hidden">
+      <!--multisteps-form-->
+      <div class="multisteps-form">
+        <!--progress bar-->
+        <div class="row">
+          <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+            <div class="multisteps-form__progress">
+              <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">Personal Info</button>
+              <button class="multisteps-form__progress-btn" type="button" title="Address">Visitor Info</button>
+              <button class="multisteps-form__progress-btn" type="button" title="Order Info">Review</button>
+            </div>
+          </div>
+        </div>
+        <!--form panels-->
+        <div class="row">
+          <div class="col-12 col-lg-8 m-auto">
+            <form class="multisteps-form__form">
+              <!--PERSONAL INFO form panel-->
+              <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Your Personal Info</h3>
+                <div class="multisteps-form__content">
+                  <div class="form-row mt-4">
+                    <div class="col-12 col-sm-6">
+                      <span>First Name</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="First Name"/>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                      <span>Middle Name</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Middle Name"/>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col-12 col-sm-6">
+                      <span>Last Name</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Last Name"/>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                      <span>Suffix</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Suffix" autocomplete="additional-name"/>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-4">
+                      <span>Birthdate</span>
+                      <input class="multisteps-form__input form-control" type="date" placeholder=" Birthdate">
+                    </div>
+                    <div class="col-12 col-sm-6 mt-4">
+                      <span>Gender</span>
+                      <select class="multisteps-form__select form-control">
+                        <option selected="selected">-select which gender-</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                      </select>
+                    </div>
+                    <div class="col-12 mt-4">
+                      <span>Home Address</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="(specify an eg. Blk x, Lt x)"/>
+                    </div>
+                    <div class="col-3 mt-4">
+                      <span>Barangay</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Barangay"/>
+                    </div>
+                    <div class="col-4 mt-4">
+                      <span>Municipality</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Municipality"/>
+                    </div>
+                    <div class="col-5 mt-4">
+                      <span>Province</span>
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Province"/>
+                    </div>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button>
+                  </div>
+                </div>
+              </div>
+              <!--PARENT form panel-->
+              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Parent Info</h3>
+                <div class="multisteps-form__content">
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Student Full Name"/>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="Parent-Student Relationship"/>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="number" placeholder="Contact Number"/>
+                    </div>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button>
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button>
+                  </div>
+                </div>
+              </div>
+              <!--ALUMNI form panel-->
+              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Alumni Info</h3>
+                <div class="multisteps-form__content">
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <select class="multisteps-form__select form-control">
+                        <option selected="selected">-select which course you finished-</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="ID numer"/>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="number" placeholder="Contact Number"/>
+                    </div>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button>
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button>
+                  </div>
+                </div>
+              </div>
+              <!--VISITOR form panel-->
+              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Parent Info</h3>
+                <div class="multisteps-form__content">
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="text" placeholder="ID Numer"/>
+                    </div>
+                  </div>
+                  <div class="form-row mt-4">
+                    <div class="col">
+                      <input class="multisteps-form__input form-control" type="number" placeholder="Contact Number"/>
+                    </div>
+                  </div>
+                  <div class="button-row d-flex mt-4">
+                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button>
+                    <button class="btn btn-primary ml-auto js-btn-next" type="button" title="Next">Next</button>
+                  </div>
+                </div>
+              </div>                            
+              <!--REVIEW form panel-->
+              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                <h3 class="multisteps-form__title">Review your request</h3>
+                <div class="multisteps-form__content">
+                  <div class="row">
+                    <!-- display request here -->
+                  </div>
+                  <div class="row">
+                    <div class="button-row d-flex mt-4 col-12">
+                      <button class="btn btn-primary js-btn-prev" type="button" title="Prev">Prev</button>
+                      <button class="btn btn-success ml-auto" type="button" title="Send">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--end of form-->
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
